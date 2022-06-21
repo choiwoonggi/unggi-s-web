@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>yeahadjsadjdsakdadksadsakdsdkfl</title>
+  <style>
+    body {
+      margin:0px;
+    }
+  </style>
+</head>
+<body>
+  <div class="bbs_wrap">
+    <h1>학교체험신청</h1>
+    <section>
+ <form method="post" name="tourForm" id="tourForm"><div style="display:none">
+<input type="hidden" name="ci_t" value="cc743f40908342918ee6b539c16b12e9">
+</div>        <input type="hidden" name="mcode" value="MUPV1618885635">
+    <input type="hidden" name="mode" value="insert">
+            <fieldset>
+            <legend class="hid-tit">학교방문투어신청 입력 폼</legend>
+            <p class="form_exp">필수입력 사항</p>
+            <div class="form_group">
+                <dl class="required">
+                    <dt><label for="singleNM">이름</label></dt>
+                    <dd class="input_100">
+                        <input type="text" id="sName" name="sName" value="" class="inputbox50" maxlength="20" placeholder="이름을 입력해 주세요" oninvalid="this.setCustomValidity('이름을 입력해 주세요.')" oninput="setCustomValidity('')" required="">
+                    </dd>
+                </dl>
+                <dl class="required">
+                    <dt><label for="hphone">연락처</label></dt>
+                    <dd class="telArea">
+                        <select id="rTel1" name="rTel1">
+                            <option value="010">010</option>
+                            <option value="011">011</option>
+                            <option value="016">016</option>
+                            <option value="017">017</option>
+                            <option value="018">018</option>
+                            <option value="019">019</option>
+                        </select>
+                        <input type="text" id="rTel2" name="rTel2" value="" class="inputbox20" maxlength="4" onkeypress="onlyNumber(rTel2);" numberonly="true" oninvalid="this.setCustomValidity('전화번호 앞자리를 입력해 주세요.')" oninput="setCustomValidity('')" required="">
+                        <input type="text" id="rTel3" name="rTel3" value="" class="inputbox20" maxlength="4" onkeypress="onlyNumber(rTel3);" numberonly="true" oninvalid="this.setCustomValidity('전화번호 뒷자리를 입력해 주세요.')" oninput="setCustomValidity('')" required="">
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><label for="hphone">연락처(부모)</label></dt>
+                    <dd class="telArea">
+                        <select id="rTel1" name="pTel1">
+                            <option value="" selected="">번호선택</option>
+                            <option value="010">010</option>
+                            <option value="011">011</option>
+                            <option value="016">016</option>
+                            <option value="017">017</option>
+                            <option value="018">018</option>
+                            <option value="019">019</option>
+                        </select>
+                        <input type="text" id="pTel2" name="pTel2" value="" class="inputbox20" maxlength="4" onkeypress="onlyNumber(rTel2);" numberonly="true">
+                        <input type="text" id="pTel3" name="pTel3" value="" class="inputbox20" maxlength="4" onkeypress="onlyNumber(rTel3);" numberonly="true">
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><label for="singleNM">부모 참석여부</label></dt>
+                    <dd class="input_100">
+                        부<input type="checkbox" id="chkF" name="chkF" class="chkbox">
+                        모<input type="checkbox" id="chkM" name="chkM" class="chkbox">
+                    </dd>
+                </dl>
+                <dl>
+                  <dt><label for="singleNM">관심 분야</label></dt>
+                  <dd class="input_100">
+                      <input type="radio" name="1" value="인공지능" id="ai"><label for="ai">인공지능</label>
+                      <input type="radio" name="1" value="게임개발" id="game"><label for="game">게임개발</label>
+                      <input type="radio" name="1" value="프로그래밍" id="program"><label for="program">프로그래밍</label>
+                      <input type="radio" name="1" value="IOT" id="IOT"><label for="IOT">IOT</label>
+                  </dd>
+              </dl>
+                <dl class="required">
+                    <dt><label for="mid">출신중학교</label></dt>
+                    <dd class="input_100">
+                        <select class="select02" id="area" name="area" oninvalid="this.setCustomValidity('출신지역을 선택해 주세요.')" oninput="setCustomValidity('')" required="">
+                            <option value="" selected="">지역선택</option>
+                            <option value="서울">서울</option>
+                            <option value="부산">부산</option>
+                            <option value="대구">대구</option>
+                            <option value="인천">인천</option>
+                            <option value="광주">광주</option>
+                            <option value="대전">대전</option>
+                            <option value="울산">울산</option>
+                            <option value="세종">세종</option>
+                            <option value="강원">강원</option>
+                            <option value="경기">경기</option>
+                            <option value="경남">경남</option>
+                            <option value="경북">경북</option>
+                            <option value="전남">전남</option>
+                            <option value="전북">전북</option>
+                            <option value="제주">제주</option>
+                            <option value="충남">충남</option>
+                            <option value="충북">충북</option>
+                        </select>
+                        <input type="text" id="school" name="school" value="" class="inputbox30" maxlength="10" placeholder="출신중학교" oninvalid="this.setCustomValidity('출신중학교를 입력해 주세요.')" oninput="setCustomValidity('')" required="">
+                        <select class="select03" id="grade" name="grade" oninvalid="this.setCustomValidity('학년을 선택해 주세요.')" oninput="setCustomValidity('')" required="">
+                            <option value="" selected="">학년선택</option>
+                            <option value="1학년">1학년</option>
+                            <option value="2학년">2학년</option>
+                            <option value="3학년">3학년</option>
+                        </select>
+
+                    </dd>
+                </dl>
+                <dl class="required">
+                    <dt><label for="date">날짜</label></dt>
+                    <dd class="input_100">
+                        <input type="date" id="dDate" name="dDate" value="" placeholder="날짜를 선택해 주세요">
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><label for="qcont">문의내용</label></dt>
+                    <dd>
+                        <textarea class="qcont" placeholder="문의내용 입력"></textarea>
+                    </dd>
+            </div>
+                <button type="submit" required=""style="width:fit-content;">신청하기</button>
+            </div>
+            <input type="hidden" id="name" name="name" value="최웅기">
+        </fieldset>
+    </form>
+    </section>
+</div>
+
+</body>
+</html>
